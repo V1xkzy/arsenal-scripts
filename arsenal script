@@ -2,6 +2,7 @@ game.Players.PlayerAdded:Wait()
 game.Players.PlayerAdded:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArcherDevelopment/LUNAESP/main/lunaesp.lua"))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/V1xkzy/arsenal-scripts/main/arsenal%20script'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/V1xkzy/arsenal-scripts/main/arsenal%20silent%20aim'))() 
 end)
 
 
