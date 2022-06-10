@@ -1,3 +1,12 @@
+game.Players.PlayerAdded:Wait()
+game.Players.PlayerAdded:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArcherDevelopment/LUNAESP/main/lunaesp.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/V1xkzy/arsenal-scripts/main/arsenal%20script'))()
+end)
+
+
+
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
